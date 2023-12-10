@@ -8,6 +8,8 @@ public class LoginSaucedemo {
 
 	@Test
 	public void teste() {
+		//Alterar pacth de referencia do WebDrive utilizado 
+		//Consultar README.md
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Selenium\\chromedriver.exe"); 
 		WebDriver driver = new ChromeDriver();		
 		//Maximiza a tela do navegador 
